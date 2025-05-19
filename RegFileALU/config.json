@@ -1,0 +1,22 @@
+
+{
+  "DESIGN_NAME": "RegFileALU",
+  "VERILOG_FILES": "dir::src/RegFileALU.v",
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": 10,
+  "PNR_SDC_FILE": "dir::src/RegFileALU.sdc",
+  "SIGNOFF_SDC_FILE": "dir::src/RegFileALU.sdc",
+  "FP_PIN_ORDER_CFG": "dir::pin_order.cfg",
+  "FP_SIZING": "absolute",
+  "DIE_AREA": "0 0 350 350",
+  "FP_CORE_UTIL": 45,
+  "PL_TARGET_DENSITY": 0.60,
+  "FP_PDN_AUTO_ADJUST": true,
+  "FP_PDN_VPITCH": 50,
+  "FP_PDN_HPITCH": 50,
+  "FP_PDN_VOFFSET": 10,
+  "FP_PDN_HOFFSET": 10,
+  "GRT_REPAIR_ANTENNAS": true,
+  "DIODE_ON_PORTS": "both",
+  "RUN_HEURISTIC_DIODE_INSERTION": true
+}

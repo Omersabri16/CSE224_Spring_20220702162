@@ -1,0 +1,1 @@
+lvs {/openlane/designs/RegFileALU/runs/RUN_2025.05.19_20.31.36/results/signoff/RegFileALU.spice RegFileALU} {/openlane/designs/RegFileALU/runs/RUN_2025.05.19_20.31.36/tmp/signoff/39-RegFileALU.pnl.v RegFileALU} /home/omers/.volare/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/RegFileALU/runs/RUN_2025.05.19_20.31.36/logs/signoff/42-RegFileALU.lef.lvs.log -json
