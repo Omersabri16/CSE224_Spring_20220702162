@@ -1,0 +1,6 @@
+<< properties >>
+string FIXED_BBOX 0 0 44000 44000
+string GDS_END 6092190
+string GDS_FILE /openlane/designs/SemiCPU/runs/RUN_2025.06.01_17.17.29/results/signoff/SemiCPU.magic.gds
+string GDS_START 963182
+<< end >>

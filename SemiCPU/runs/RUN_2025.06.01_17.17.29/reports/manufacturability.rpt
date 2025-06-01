@@ -1,0 +1,19 @@
+Design Name: SemiCPU
+Run Directory: /openlane/designs/SemiCPU/runs/RUN_2025.06.01_17.17.29
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/SemiCPU/runs/RUN_2025.06.01_17.17.29/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/SemiCPU/runs/RUN_2025.06.01_17.17.29/logs/signoff/38-SemiCPU.lef.lvs.log
+Number of nets: 2062                       |Number of nets: 2062                       
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/SemiCPU/runs/RUN_2025.06.01_17.17.29/logs/signoff/41-arc.log
+Pin violations: 1
+Net violations: 1

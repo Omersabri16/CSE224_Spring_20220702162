@@ -1,0 +1,1 @@
+lvs {/openlane/designs/SemiCPU/runs/RUN_2025.06.01_17.17.29/results/signoff/SemiCPU.spice SemiCPU} {/openlane/designs/SemiCPU/runs/RUN_2025.06.01_17.17.29/tmp/signoff/35-SemiCPU.pnl.v SemiCPU} /home/omers/.volare/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/SemiCPU/runs/RUN_2025.06.01_17.17.29/logs/signoff/38-SemiCPU.lef.lvs.log -json
