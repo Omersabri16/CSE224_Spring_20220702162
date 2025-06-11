@@ -1,0 +1,76 @@
+%Warning-VARHIDDEN: /openlane/designs/CPU/src/CPU.v:7:23: Declaration of signal hides declaration in upper scope: 'pc'
+    7 |     output reg [31:0] pc
+      |                       ^~
+                    /openlane/designs/CPU/src/CPU.v:195:20: ... Location of original declaration
+  195 |     ProgramCounter pc(.clk(clk), .reset(reset), .control(pulse), .next_pc(next_pc), .pc(pc_out));
+      |                    ^~
+                    ... For warning description see https://verilator.org/warn/VARHIDDEN?v=5.018
+                    ... Use "/* verilator lint_off VARHIDDEN */" and lint_on around source to disable this message.
+%Warning-BLKSEQ: /openlane/designs/CPU/src/CPU.v:150:33: Blocking assignment '=' in sequential logic process
+                                                       : ... Suggest using delayed assignment '<='
+  150 |             3'b111: begin digit = data[31:28]; an = 8'b01111111; end
+      |                                 ^
+%Warning-BLKSEQ: /openlane/designs/CPU/src/CPU.v:150:51: Blocking assignment '=' in sequential logic process
+                                                       : ... Suggest using delayed assignment '<='
+  150 |             3'b111: begin digit = data[31:28]; an = 8'b01111111; end
+      |                                                   ^
+%Warning-BLKSEQ: /openlane/designs/CPU/src/CPU.v:149:33: Blocking assignment '=' in sequential logic process
+                                                       : ... Suggest using delayed assignment '<='
+  149 |             3'b110: begin digit = data[27:24]; an = 8'b10111111; end
+      |                                 ^
+%Warning-BLKSEQ: /openlane/designs/CPU/src/CPU.v:149:51: Blocking assignment '=' in sequential logic process
+                                                       : ... Suggest using delayed assignment '<='
+  149 |             3'b110: begin digit = data[27:24]; an = 8'b10111111; end
+      |                                                   ^
+%Warning-BLKSEQ: /openlane/designs/CPU/src/CPU.v:148:33: Blocking assignment '=' in sequential logic process
+                                                       : ... Suggest using delayed assignment '<='
+  148 |             3'b101: begin digit = data[23:20]; an = 8'b11011111; end
+      |                                 ^
+%Warning-BLKSEQ: /openlane/designs/CPU/src/CPU.v:148:51: Blocking assignment '=' in sequential logic process
+                                                       : ... Suggest using delayed assignment '<='
+  148 |             3'b101: begin digit = data[23:20]; an = 8'b11011111; end
+      |                                                   ^
+%Warning-BLKSEQ: /openlane/designs/CPU/src/CPU.v:147:33: Blocking assignment '=' in sequential logic process
+                                                       : ... Suggest using delayed assignment '<='
+  147 |             3'b100: begin digit = data[19:16]; an = 8'b11101111; end
+      |                                 ^
+%Warning-BLKSEQ: /openlane/designs/CPU/src/CPU.v:147:51: Blocking assignment '=' in sequential logic process
+                                                       : ... Suggest using delayed assignment '<='
+  147 |             3'b100: begin digit = data[19:16]; an = 8'b11101111; end
+      |                                                   ^
+%Warning-BLKSEQ: /openlane/designs/CPU/src/CPU.v:146:33: Blocking assignment '=' in sequential logic process
+                                                       : ... Suggest using delayed assignment '<='
+  146 |             3'b011: begin digit = data[15:12]; an = 8'b11110111; end
+      |                                 ^
+%Warning-BLKSEQ: /openlane/designs/CPU/src/CPU.v:146:51: Blocking assignment '=' in sequential logic process
+                                                       : ... Suggest using delayed assignment '<='
+  146 |             3'b011: begin digit = data[15:12]; an = 8'b11110111; end
+      |                                                   ^
+%Warning-BLKSEQ: /openlane/designs/CPU/src/CPU.v:145:33: Blocking assignment '=' in sequential logic process
+                                                       : ... Suggest using delayed assignment '<='
+  145 |             3'b010: begin digit = data[11:8];  an = 8'b11111011; end
+      |                                 ^
+%Warning-BLKSEQ: /openlane/designs/CPU/src/CPU.v:145:51: Blocking assignment '=' in sequential logic process
+                                                       : ... Suggest using delayed assignment '<='
+  145 |             3'b010: begin digit = data[11:8];  an = 8'b11111011; end
+      |                                                   ^
+%Warning-BLKSEQ: /openlane/designs/CPU/src/CPU.v:144:33: Blocking assignment '=' in sequential logic process
+                                                       : ... Suggest using delayed assignment '<='
+  144 |             3'b001: begin digit = data[7:4];   an = 8'b11111101; end
+      |                                 ^
+%Warning-BLKSEQ: /openlane/designs/CPU/src/CPU.v:144:51: Blocking assignment '=' in sequential logic process
+                                                       : ... Suggest using delayed assignment '<='
+  144 |             3'b001: begin digit = data[7:4];   an = 8'b11111101; end
+      |                                                   ^
+%Warning-BLKSEQ: /openlane/designs/CPU/src/CPU.v:143:33: Blocking assignment '=' in sequential logic process
+                                                       : ... Suggest using delayed assignment '<='
+  143 |             3'b000: begin digit = data[3:0];   an = 8'b11111110; end
+      |                                 ^
+%Warning-BLKSEQ: /openlane/designs/CPU/src/CPU.v:143:51: Blocking assignment '=' in sequential logic process
+                                                       : ... Suggest using delayed assignment '<='
+  143 |             3'b000: begin digit = data[3:0];   an = 8'b11111110; end
+      |                                                   ^
+%Warning-BLKSEQ: /openlane/designs/CPU/src/CPU.v:169:23: Blocking assignment '=' in sequential logic process
+                                                       : ... Suggest using delayed assignment '<='
+  169 |             4'hF: seg = 7'b0001110;
+      |                       ^

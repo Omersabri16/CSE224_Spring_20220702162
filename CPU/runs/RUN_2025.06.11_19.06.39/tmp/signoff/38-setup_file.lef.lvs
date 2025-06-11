@@ -1,0 +1,1 @@
+lvs {/openlane/designs/CPU/runs/RUN_2025.06.11_19.06.39/results/signoff/CPU.spice CPU} {/openlane/designs/CPU/runs/RUN_2025.06.11_19.06.39/tmp/signoff/35-CPU.pnl.v CPU} /home/omers/.volare/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/CPU/runs/RUN_2025.06.11_19.06.39/logs/signoff/38-CPU.lef.lvs.log -json
